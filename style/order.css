@@ -1,0 +1,285 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+input[type='file'] {
+	max-width: 100%;
+}
+
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.borders{
+    padding-left: 17.45%;
+    padding-right: 17.45%;
+    
+}
+.border{
+    padding-left: 17.45%;
+    padding-right: 17.45%;
+    display: flex;
+    
+}
+
+.header{
+    height: 3.7vh;
+    width: 100%;
+    background-color: #F3F1F1;
+}
+.container_header{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.left{
+    display: flex;
+    width: 50%;
+    justify-content: left;
+}
+.right{
+    min-height: 100%;
+    align-items: center;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.text_left{
+    font-size: 15px;
+}
+.text_right{
+    font-size: 13px;
+}
+.icon_img{
+    width: 14px;
+    height: 14px;
+    margin-right: 3px;
+}
+.menu_but{
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 6;
+    
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #D8D8D8;
+}
+.container_menu{
+    display: flex;
+    align-items: center;
+    height: 7.9vh;
+}
+.title_menu{
+    width: 20.75%;
+    font-size: 32px;
+}
+.dolch{
+    cursor: pointer;
+}
+.achors_menu{
+    display: flex;
+    gap: 42px;
+    font-size: 15px;
+}
+.container_products{
+    padding-top: 73px;
+    padding-bottom: 106px;
+}
+.menu_category{
+    margin-right: 34px;
+    margin-top: 20px;
+    display: grid;
+    grid-auto-rows: 30px 30px  18px;
+    gap: 10px;
+}
+.fz25{
+    font-size: 24px;
+}
+.fz15{
+    font-size: 15px;
+}
+.title_goods{
+    font-size: 50px;
+    width: 500px;
+}
+.goods_info{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 223px 223px 223px 223px;
+    margin-top: 30px;
+}
+.img_goods{
+    width: 192px;
+    height: 144px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.title_goods_info{
+    margin-top: 8px;
+    margin-bottom: 29px;
+    font-size: 15px;
+}
+.price_goods{
+    display: flex;
+    align-items: center;
+}
+.gr{
+    color: #D2D2D2;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #171717;
+}
+.footer{
+    background-color: #171717;
+    padding-top: 42px;
+    padding-bottom: 74px;
+}
+.title_footer{
+    font-size: 48px;
+    color: #ffff;
+    margin-right: 319px;
+}
+.achors_footer{
+    display: grid;
+    grid-template-columns: 313px 145px;
+}
+.left_archors{
+    display: grid;  
+    gap: 20px;
+}
+.right_achors{
+    display: grid;  
+    gap: 20px;
+    grid-template-rows: 20px  20px 20px 20px;
+    grid-template-columns: 200px;
+    text-align: right;
+    width: 200px;
+}
+.s{
+    color: #ffff;
+}
+.other{
+    background-color: #353535;
+    padding: 19px 0px;
+    
+    display: flex;
+    align-self: center;
+    
+}
+.one{
+    color: #ffff;
+    font-size: 15px;
+}
+.two{
+    margin-left: 29px;
+    color: #ffff;
+    font-size: 15px;
+}
+
+.img_ord{
+    width: 100%;
+    height: 100%;
+}
+.goods_order{
+    width: 192px;
+}
